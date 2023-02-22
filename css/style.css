@@ -1,5 +1,11 @@
 /* color variables */
 :root {
+    --orange: rgba(255, 105, 0, 1);
+    --black-footer: rgba(26, 26, 26, 1);
+    --red: rgba(255, 0, 0, 1);
+    --green: rgba(0, 128, 0, 1);
+    --black-heart: rgba(30, 51, 76, 1);
+    --white: #ffffff;
 
 }
 
@@ -10,4 +16,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* container */
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
