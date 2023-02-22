@@ -67,8 +67,12 @@ nav {
 
 /* MAIN */
 
-.card {
+article {
     width: calc((100% - 2rem) / 3);
+}
+
+.card {
+    /* width: calc((100% - 2rem) / 3); */
     position: relative;
 }
 
@@ -103,6 +107,22 @@ h6 {
     aspect-ratio: 1 / 1;
     line-height: 1.5rem;
     text-align: center;
+}
+
+.red-bg {
+    color: var(--white);
+    background-color: var(--red);
+}
+
+.green-bg {
+    color: var(--white);
+    background-color: var(--green);
+}
+
+.absolute-pos {
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
 }
 
 /* FOOTER */
