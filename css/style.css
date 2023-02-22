@@ -39,6 +39,7 @@
 a {
     text-decoration: none;
     color: var(--white);
+    padding-right: 1rem;
 }
 
 i {
@@ -60,18 +61,36 @@ nav {
 }
 
 #logo {
-    height: 1rem;
+    height: 1.5rem;
 }
 
 /* MAIN */
 
 .card {
-    width: calc((100% - 20px) / 3);
-    padding: 10px;
+    width: calc((100% - 2rem) / 3);
+    padding-top: 3rem;
 }
 
 .card img {
     width: 100%;
+}
+
+h6 {
+    font-weight: lighter;
+}
+
+.grey-text {
+
+}
+
+.red-text {
+    color: var(--red);
+}
+
+.withdraw {
+    color: var(--black-heart);
+    text-decoration: line-through;
+    font-weight: lighter;
 }
 
 /* FOOTER */
@@ -79,5 +98,7 @@ nav {
 footer {
     background-color: var(--black-footer);
     color: var(--white);
-    height: 20rem;
+    height: 5rem;
+    margin-top: 3rem;
 }
+
