@@ -131,6 +131,10 @@ h6 {
     text-align: center;
 }
 
+.heart:hover {
+    color: var(--red);
+}
+
 .red-bg {
     color: var(--white);
     background-color: var(--red);
