@@ -59,23 +59,34 @@ ul {
 
 header {
     background: var(--orange);
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 999px;
-    margin-bottom: 3rem;
+    z-index: 2;
+    height: 5rem;
 }
 
-nav {
+/* nav {
     padding: 1rem 0;
+} */
+
+.logo {
+    width: 1.5rem;
 }
 
-#logo {
-    height: 1.5rem;
+.logo img {
+    width: 100%;
 }
 
 /* MAIN */
+
+/* container main */
+.container-main {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 8rem;
+}
 
 article {
     width: calc((100% - 2rem) / 3);
