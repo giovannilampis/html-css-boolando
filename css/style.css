@@ -80,6 +80,22 @@ article {
     width: 100%;
 }
 
+.main-image {
+    display: inline-block;
+}
+
+.secondary-image {
+    display: none;
+}
+
+.card:hover .main-image {
+    display: none;
+}
+
+.card:hover .secondary-image {
+    display: inline-block;
+}
+
 h6 {
     font-weight: lighter;
 }
