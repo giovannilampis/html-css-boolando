@@ -61,6 +61,10 @@ nav {
     padding: 10px;
 }
 
+.card img {
+    width: 100%;
+}
+
 /* FOOTER */
 
 footer {
