@@ -70,3 +70,7 @@ nav {
 footer {
     background-color: var(--black-footer);
 }
+
+footer {
+    color: var(--white);
+}
