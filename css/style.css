@@ -144,17 +144,21 @@ h6 {
 .red-bg {
     color: var(--white);
     background-color: var(--red);
+    padding: 0.2rem 0.3rem;
 }
 
 .green-bg {
     color: var(--white);
     background-color: var(--green);
+    padding: 0.2rem 0.3rem;
 }
 
 .absolute-pos {
     position: absolute;
     left: 0;
     bottom: 3rem;
+    font-size: 0.7rem;
+    font-weight: bold;
 }
 
 .article-margin {
