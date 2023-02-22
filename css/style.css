@@ -18,8 +18,51 @@
     box-sizing: border-box;
 }
 
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* container */
 .container {
     width: 80%;
     margin: 0 auto;
+}
+
+/* GENERAL */
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* HEADER */
+
+header {
+    background-color: var(--orange);
+}
+
+nav {
+    padding: 1rem 0;
+}
+
+#logo {
+    height: 1rem;
+}
+
+/* MAIN */
+
+.card {
+    width: calc((100% - 20px) / 3);
+    padding: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--black-footer);
 }
